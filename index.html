@@ -1,23 +1,199 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <h1 class="page-heading">Posts</h1>
+    <title>ConeX Trip</title>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="icon" 
+      type="image/png" 
+      href="assets/images/favicon.png">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet" media="screen">
+    <link href="assets/css/style.css" rel="stylesheet" media="screen">   
+</head>
+<body>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	<div id="preloader">
+	    <div id="status">
+	    	<div class="status-area"></div>
+	    </div>
+	</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	<div class="layout">
+		<div class="container">
+			<div class="main">
 
-</div>
+				<div class="logoResp visible-xs visible-sm"></div>
+				<div class="overlay center-block">
+					
+					<h1 class="title" style="font-weight:500">Redesigning our Website</h1>
+					
+					<h2 class="slogan" style="margin-top:50px; font-weight:500; font-size:17px">
+						We are redesigning our dante.com with love for you, stay tunned!
+					</h2>
+					
+
+					<div class="" style="display:table; margin: auto">
+						<div class="icon-wrapper" style=""><i class="fa fa-plane custom-icon"><span class="fix-editor">&nbsp;</span></i></div>
+
+						<div class="icon-wrapper" style="margin-right:20px; margin-left:20px"><i class="fa fa-car custom-icon"><span class="fix-editor">&nbsp;</span></i></div>
+
+						
+						<div class="icon-wrapper" style="margin-right:20px"><i class="fa fa-building-o custom-icon"><span class="fix-editor">&nbsp;</span></i></div>
+
+						<div class="icon-wrapper" style=""><i class="fa fa-ship custom-icon"><span class="fix-editor">&nbsp;</span></i></div>
+
+						
+					</div>
+					
+					
+					<br><br>
+					<div class="more-links">
+						
+						<a href="#" target="_blank">Backoffice</a>
+						<br class="visible-xs ">
+						<br class="visible-xs ">
+						<a class="info" href="#">More info</a>
+					</div>
+					
+
+					<div class="social">
+						<ul class="list-inline">
+							<li><a href="https://twitter.com/viaje_conextrip" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/ConexTrip" target="_blank" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://plus.google.com/101035937758025185615/posts" target="_blank" data-toggle="tooltip" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+							<!-- <li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a></li> -->
+							<!-- <li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li> -->
+						</ul>
+					</div>
+					
+					<br>
+
+					<div class="" style="display:table; margin:auto">
+						<ul class="list-inline">
+							<li>
+								<a href="index-PT.html">
+									<img src="assets/images/pt.png" alt="" style="height:30px">
+								</a>
+							</li>
+
+							<li>
+								<a href="#">
+									<img src="assets/images/eng.png" alt="" style="height:30px">
+								</a>
+							</li>
+
+							<li>
+								<a href="index-ESP.html">
+									<img src="assets/images/esp.png" alt="" style="height:30px">
+								</a>
+							</li>
+
+							
+							
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- <div id="contact" class="new-modal">
+			<div class="container">
+				<div class="main">
+
+					<div class="close">
+						<a href="#" class="modal-close"><i class="fa fa-times"></i></a>
+					</div>
+
+					<div class="title">
+						<h2>Contact</h2>
+					</div>
+					<div class="row">
+						<div class="forms">
+							<form>
+								<div class="form-group">
+									<label class="sr-only" for="name">Name</label>
+									<input type="text" class="form-control" id="name" placeholder="Name" required="required">
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="email">Email</label>
+									<input type="email" class="form-control" id="email" placeholder="Email" required="required">
+								</div>
+								<div class="form-group">
+									<label class="sr-only" for="object">Email</label>
+									<input type="text" class="form-control" id="object" placeholder="Object" required="required">
+								</div>
+								<div class="form-group">
+									<textarea class="form-control" id="message" placeholder="Message" rows="3" required="required"></textarea>
+								</div>
+								<button type="submit" class="btn btn-lg btn-default">SEND</button>
+							</form>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div> -->
+
+		<div id="subscribe" class="new-modal">
+			<div class="container">
+				<div class="main">
+
+					<div class="close">
+						<a href="#" class="modal-close"><i class="fa fa-times"></i></a>
+					</div>
+					<br>
+					<div class="title">
+						<h2>More information</h2>
+					</div>
+
+					<div class="slogan">
+						<p>Best offers for holiday travel, leisure or business, for companies seeking savings and quality of services in the tourism market.</p>
+					</div>
+
+					<div>
+						
+						<br>
+						<p class="text-center"><i class="fa fa-phone" aria-hidden="true"></i>  +1 (941) 479-2470</p>
+						<br>
+						<p class="text-center"><i class="fa fa-envelope-o" aria-hidden="true"></i>  usa@conextrip.com</p>
+						<br>
+						<p class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i>  PO Box 33496 Palmetto Park, Rd Boca Raton, 18842, Miami - Florida - EUA</p>
+						
+
+						
+					</div>
+
+					<!-- <div class="forms">
+						<form>
+							<div class="form-group">
+								<input type="email" class="form-control" id="subscribe-email" placeholder="Email address" required="required">
+								<button class="btn btn-lg btn-default" type="submit">Subscribe</button> 
+							</div>     	
+						</form>
+					</div> -->
+
+				</div>
+			</div>
+		</div> 
+	</div>
+
+
+   	<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+   	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script> 
+   	<script type="text/javascript" src="assets/js/countdown.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.vegas.min.js"></script>
+   	<script type="text/javascript" src="assets/js/scripts-slider.js"></script>
+
+</body>
+
+</html>
