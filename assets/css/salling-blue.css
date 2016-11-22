@@ -1159,3 +1159,12 @@ body.vintage .testimonials .testimonials-carousel .owl-controls .owl-prev,
 body.vintage .testimonials .testimonials-carousel .owl-controls .owl-next {
   line-height: 55px;
 }
+
+
+/*media queries*/
+@media only screen and (max-width: 990px) {
+    .media {
+        margin-left:28vw !important;
+    }
+
+}
