@@ -99,7 +99,7 @@ body {
   font-weight: 300;
 }
 a {
-  color: #0a8fd5;
+  color: #51C6FF;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
@@ -862,10 +862,17 @@ aside.cta-quote span.quote {
   font-size: 12px;
 }
 /*  #Mobile (Portrait) - Note: Design for a width of 320px */
+
 @media only screen and (max-width: 767px) {
   #portfoliolist .portfolio {
     width: 48%;
     margin: 1%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  #portfoliolist .portfolio {
+    width: 80%;
+    margin:10%;
   }
 }
 .pricing {
